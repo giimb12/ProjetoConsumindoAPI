@@ -1,0 +1,112 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+body{
+    font-size: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../imagens/backgroundimgdark.png");
+    background-repeat:no-repeat;
+    margin: 0 auto;
+    max-width: 1800px;
+    margin: 0px 50px;
+    margin-top: 40px;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 4vh;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+#cabecalho a:link{
+    text-decoration: none;
+}
+
+#cabecalho a:hover{
+    text-decoration: none;
+}
+
+#cabecalho a:visited{
+    text-decoration: none;
+}
+
+.config-cabecalho{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 20px;
+    padding: 50px 70px;
+    cursor:pointer;
+    text-align: center;
+    align-items: center;
+}
+
+.config-cabecalho img{
+    margin-top: -100px;
+}
+
+.config-cabecalho p{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+#config-cabecalho-fake p{
+    margin-top: 20px;
+}
+
+#cabecalho p:visited{
+    color: black;
+}
+
+.config-cabecalho {
+    color: black;
+    background: rgb(255, 255, 255);
+    transition: transform 0.3s;
+    transform: translateX(0) scale(1);
+}
+  
+.config-cabecalho:hover, .config-cabecalho:focus {
+    color: red;
+    transform: translateX(10px) scale(1.1);
+}
+
+.rodape{
+    color: whitesmoke;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 140px;
+    position: relative;
+}
+
+h1{
+    color: white;
+    margin-bottom: 60px;
+    font-size: 4.0em;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+p{
+    color: white;
+    font-size: 1.2em;
+}
+
+#veja-sites{
+    text-align: center;
+    margin-top: 30px;
+}
